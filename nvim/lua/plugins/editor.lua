@@ -25,13 +25,13 @@ return {
       }
     end,
   },
-   {
+  {
     'brenoprata10/nvim-highlight-colors',
     opts = {
       render = 'foreground',
     },
   },
-   { -- Autocompletion
+  { -- Autocompletion
     'hrsh7th/nvim-cmp',
     event = 'InsertEnter',
     dependencies = {
