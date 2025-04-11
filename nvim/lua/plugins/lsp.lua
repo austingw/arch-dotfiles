@@ -67,11 +67,11 @@ return {
 
 					-- Fuzzy find all the symbols in your current document.
 					--  Symbols are things like variables, functions, types, etc.
-					map("<leader>ds", Snacks.picker.lsp_document_symbols, "[D]ocument [S]ymbols")
+					map("<leader>ds", Snacks.picker.lsp_symbols, "[D]ocument [S]ymbols")
 
 					-- Fuzzy find all the symbols in your current workspace
 					--  Similar to document symbols, except searches over your whole project.
-					map("<leader>ws", Snacks.picker.lsp_dynamic_workspace_symbols, "[W]orkspace [S]ymbols")
+					map("<leader>ws", Snacks.picker.lsp_workspace_symbols, "[W]orkspace [S]ymbols")
 
 					-- Rename the variable under your cursor
 					--  Most Language Servers support renaming across files, etc.
