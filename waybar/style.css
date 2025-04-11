@@ -69,7 +69,6 @@ tooltip {
 
 #tray {
     background-color: #29394f;
-    border: 2px solid #c7ab7a;
 }
 
 #battery {
@@ -88,19 +87,16 @@ tooltip {
 #cpu.critical,
 #memory.critical {
     background-color: #dbc074;
-    border: 2px solid #baa363;
     color: #dfdfe0;
 }
 
 #battery.warning,
 #battery.critical {
     background-color: #dbc074;
-    border: 2px solid #baa363;
     color: #dfdfe0;
 }
 
 #battery.urgent {
     background-color: #c94f6d;
-    border: 2px solid #ab435d;
     color: #dfdfe0;
 }
