@@ -5,13 +5,13 @@
     font-family: "iosevka nerd font";
     font-weight: 500;
     font-size: 14px;
-    opacity: .95;
 }
 
 window#waybar {
     margin: 0 25;
     background: #192330;
     border-radius: 6;
+    opacity: .9;
 }
 
 tooltip {
@@ -35,7 +35,6 @@ tooltip {
 #workspaces {
     background-color: #29394f;
     margin: 6px 0px 6px 6px;
-    border: 2px solid #393b44;
     border-radius: 6
 }
 
@@ -65,8 +64,7 @@ tooltip {
 
 #clock {
     background-color: #29394f;
-    border: 2px solid #393b44;
-    color: #dfdfe0;
+    color: #81b29a;
 }
 
 #tray {
@@ -76,7 +74,6 @@ tooltip {
 
 #battery {
     background-color: #29394f;
-    border: 2px solid #393b44;
     color: #dfdfe0;
 }
 
@@ -85,7 +82,6 @@ tooltip {
 #network,
 #pulseaudio {
     background-color: #29394f;
-    border: 2px solid #393b44;
     color: #dfdfe0;
 }
 
