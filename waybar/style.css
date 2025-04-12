@@ -90,12 +90,13 @@ tooltip {
     color: #dfdfe0;
 }
 
-#battery.warning,
-#battery.critical {
+#battery.warning
+{
     background-color: #dbc074;
     color: #dfdfe0;
 }
 
+#battery.critical,
 #battery.urgent {
     background-color: #c94f6d;
     color: #dfdfe0;
