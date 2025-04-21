@@ -2,6 +2,7 @@ alacritty
 alsa-utils
 base
 base-devel
+brave-bin
 brightnessctl
 c-ares
 discord
@@ -25,6 +26,7 @@ man-pages
 neovim
 networkmanager
 nodejs
+noto-fonts-emoji
 npm
 openssh
 pamixer
