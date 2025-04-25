@@ -64,7 +64,7 @@ tooltip {
 
 #clock {
     background-color: #29394f;
-    color: #81b29a;
+    color: #dfdfe0;
 }
 
 #tray {
@@ -73,7 +73,7 @@ tooltip {
 
 #battery {
     background-color: #29394f;
-    color: #dfdfe0;
+    color: #81b29a;
 }
 
 #cpu,
@@ -81,7 +81,7 @@ tooltip {
 #network,
 #pulseaudio {
     background-color: #29394f;
-    color: #dfdfe0;
+    color: #81b29a;
 }
 
 #cpu.critical,
