@@ -32,10 +32,10 @@ alias discord="discord --enable-features=WaylandWindowDecorations --ozone-platfo
 
 # alias cd="z"
 # pnpm
-# set -gx PNPM_HOME /Users/austin/Library/pnpm
-# if not string match -q -- $PNPM_HOME $PATH
-#    set -gx PATH "$PNPM_HOME" $PATH
-#end
+set -gx PNPM_HOME "/home/austin/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
 # pnpm end
 
 #set -x GOPATH (go env GOPATH)
