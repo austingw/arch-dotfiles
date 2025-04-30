@@ -40,3 +40,7 @@ end
 
 #set -x GOPATH (go env GOPATH)
 #set -x PATH $PATH /usr/local/go/bin (go env GOPATH)/bin
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
