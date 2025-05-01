@@ -34,7 +34,7 @@ alias discord="discord --enable-features=WaylandWindowDecorations --ozone-platfo
 # pnpm
 set -gx PNPM_HOME "/home/austin/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
 
@@ -44,3 +44,6 @@ end
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+
+# grim
+set --export GRIM_DEFAULT_DIR "$HOME/Pictures"
