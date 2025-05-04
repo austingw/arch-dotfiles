@@ -1,23 +1,23 @@
 * {
-    border: none;
-    border-radius: 0;
-    min-height: 0;
-    font-family: "iosevka nerd font";
-    font-weight: 500;
-    font-size: 14px;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: "iosevka nerd font";
+  font-weight: 500;
+  font-size: 14px;
 }
 
 window#waybar {
-    margin: 0 25;
-    background: #192330;
-    border-radius: 6;
-    opacity: .9;
+  margin: 0 25;
+  background: #192330;
+  border-radius: 6;
+  opacity: 0.8;
 }
 
 tooltip {
-    background-color: #1d2021;
-    border: 2px solid #7c6f64;
-    border-radius: 6;
+  background-color: #1d2021;
+  border: 2px solid #7c6f64;
+  border-radius: 6;
 }
 
 #clock,
@@ -27,77 +27,75 @@ tooltip {
 #battery,
 #network,
 #pulseaudio {
-    margin: 6px 6px 6px 0px;
-    padding: 2px 8px;
-    border-radius: 6;
+  margin: 6px 6px 6px 0px;
+  padding: 2px 8px;
+  border-radius: 6;
 }
 
 #workspaces {
-    background-color: #29394f;
-    margin: 6px 0px 6px 6px;
-    border-radius: 6
+  background-color: #29394f;
+  margin: 6px 0px 6px 6px;
+  border-radius: 6;
 }
 
 #workspaces button {
-    all: initial;
-    min-width: 0;
-    box-shadow: inset 0 -3px transparent;
-    padding: 2px 6px;
-    margin: 1;
-    color: #81b29a;
-    border-radius: 6;
+  all: initial;
+  min-width: 0;
+  box-shadow: inset 0 -3px transparent;
+  padding: 2px 6px;
+  margin: 1;
+  color: #81b29a;
+  border-radius: 6;
 }
 
 #workspaces button.active {
-    color: #29394f;
-    background-color: #81b29a;
+  color: #29394f;
+  background-color: #81b29a;
 }
 
-
 #workspaces button.focused {
-    color: #ddc7a1;
+  color: #ddc7a1;
 }
 
 #workspaces button.urgent {
-    background-color: #e78a4e;
+  background-color: #e78a4e;
 }
 
 #clock {
-    background-color: #29394f;
-    color: #dfdfe0;
+  background-color: #29394f;
+  color: #dfdfe0;
 }
 
 #tray {
-    background-color: #29394f;
+  background-color: #29394f;
 }
 
 #battery {
-    background-color: #29394f;
-    color: #81b29a;
+  background-color: #29394f;
+  color: #81b29a;
 }
 
 #cpu,
 #memory,
 #network,
 #pulseaudio {
-    background-color: #29394f;
-    color: #81b29a;
+  background-color: #29394f;
+  color: #81b29a;
 }
 
 #cpu.critical,
 #memory.critical {
-    background-color: #dbc074;
-    color: #dfdfe0;
+  background-color: #dbc074;
+  color: #dfdfe0;
 }
 
-#battery.warning
-{
-    background-color: #dbc074;
-    color: #dfdfe0;
+#battery.warning {
+  background-color: #dbc074;
+  color: #dfdfe0;
 }
 
 #battery.critical,
 #battery.urgent {
-    background-color: #c94f6d;
-    color: #dfdfe0;
+  background-color: #c94f6d;
+  color: #dfdfe0;
 }
